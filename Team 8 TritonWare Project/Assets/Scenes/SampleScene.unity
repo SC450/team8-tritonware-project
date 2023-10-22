@@ -104086,6 +104086,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1547346605019663752, guid: 6a9b6957fbb2f48539e773ed1dd41a7c, type: 3}
+      propertyPath: m_text
+      value: Aeriwalls
+      objectReference: {fileID: 0}
     - target: {fileID: 1768177756757990142, guid: 6a9b6957fbb2f48539e773ed1dd41a7c, type: 3}
       propertyPath: m_text
       value: PLAY
