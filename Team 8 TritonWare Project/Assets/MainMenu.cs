@@ -1,11 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject menuUI;
+    public GameObject player;
+    public GameObject placeHolderCam;
+
     public void PlayGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        menuUI.active = false;
+        placeHolderCam.active = false;
+        player.active = true;
+    }
+
+    public void ExitGame() {
+        Debug.Log("Player has exited the game.");
+        Application.Quit();
     }
 }
